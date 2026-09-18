@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://phenic-ia.fr/sitemap.xml
