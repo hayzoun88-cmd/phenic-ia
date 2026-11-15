@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Questionnaire projet site internet | PHENIC·IA</title>
+<meta name="description" content="Décrivez votre projet de site internet à PHENIC·IA en 15 à 20 minutes : questionnaire guidé, sans question obligatoire, avec sauvegarde automatique.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://phenic-ia.fr/questionnaire">
+<meta name="theme-color" content="#080808">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23080808%27/%3E%3Cellipse cx=%2716%27 cy=%2716%27 rx=%2712%27 ry=%275%27 fill=%27none%27 stroke=%27%23d6b36a%27 stroke-width=%271.6%27 transform=%27rotate(-20 16 16)%27/%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%274.5%27 fill=%27%23d6b36a%27/%3E%3C/svg%3E">
+<style>
+  :root{--bg:#080808;--surface:#101010;--surface2:#151515;--text:#f6f3ed;--text2:#b4b4b4;--line:rgba(255,255,255,.1);--gold:#d6b36a;--gold-soft:rgba(214,179,106,.18);--cream:#eee7d9;--btn-text:#0b0b0b;--hdr:56px}
+  :root[data-theme="light"]{--bg:#f3efe6;--surface:#faf8f3;--surface2:#f1ede4;--text:#121212;--text2:#454545;--line:rgba(0,0,0,.11);--gold:#946e22;--gold-soft:rgba(154,116,41,.18);--cream:#121212;--btn-text:#f6f3ed}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:"DM Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+  a{color:inherit;text-decoration:none}
+  .wrap{width:calc(100% - 48px);max-width:1180px;margin:0 auto}
+  header{height:var(--hdr);border-bottom:1px solid var(--line);background:var(--surface)}
+  header .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{font-family:"Space Grotesk",-apple-system,sans-serif;font-weight:700;letter-spacing:-.06em;font-size:22px}
+  .brand span{color:var(--gold)}
+  .nav{display:flex;gap:20px;font-size:15px;color:var(--text2)}
+  .nav a{min-height:44px;display:inline-flex;align-items:center}
+  .nav a:hover{color:var(--gold)}
+  .intro{padding:20px 0 14px;text-align:center}
+  .intro h1{font-family:"Space Grotesk",-apple-system,sans-serif;font-size:clamp(24px,4vw,34px);line-height:1.1;letter-spacing:-.03em}
+  .intro p{margin-top:6px;color:var(--text2);font-size:15px}
+  .tools{display:flex;justify-content:center;align-items:center;flex-direction:column;gap:10px;padding-bottom:12px}
+  .fs-link{font-size:14px;color:var(--text2);text-decoration:underline;text-underline-offset:3px;min-height:44px;display:inline-flex;align-items:center}
+  .fs-link:hover{color:var(--gold)}
+  .btn{padding:0 22px;min-height:48px;border-radius:999px;background:var(--cream);color:var(--btn-text);font-weight:700;font-size:16px;border:1px solid var(--cream);display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:.2s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px var(--gold-soft)}
+  .mobile-only{display:none}
+  a:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:6px}
+  iframe#q{display:block;width:100%;border:0;height:calc(100vh - var(--hdr));min-height:700px;background:#fff}
+  footer{padding:18px 0;border-top:1px solid var(--line);font-size:14px;color:var(--text2)}
+  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  @media(max-width:767px){
+    .wrap{width:calc(100% - 30px)}
+    .mobile-only{display:inline-flex;width:100%}
+    .tools{padding:0 15px 12px}
+    .nav .hide-sm{display:none}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a href="/" class="brand" aria-label="PHENIC·IA — accueil">PHENIC<span>·IA</span></a>
+    <nav class="nav" aria-label="Navigation">
+      <a href="/" class="hide-sm">← Retour au site</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="intro wrap">
+    <h1>Votre projet web commence ici</h1>
+    <p>15 à 20 minutes · aucune question obligatoire · sauvegarde automatique</p>
+  </section>
+
+  <div class="tools">
+    <a class="btn mobile-only" data-qurl target="_blank" rel="noopener noreferrer">Ouvrir en plein écran (recommandé sur mobile) →</a>
+    <a class="fs-link" data-qurl target="_blank" rel="noopener noreferrer">Ouvrir le questionnaire en plein écran</a>
+  </div>
+
+  <iframe id="q" title="Questionnaire projet PHENIC·IA" allow="clipboard-write"></iframe>
+  <noscript><p class="wrap" style="padding:20px 0">JavaScript est nécessaire pour afficher le questionnaire ici. <a class="fs-link" href="https://script.google.com/macros/s/AKfycbxoXNZzUuCkW5V8tyPz9Dvxfk_Eef8J6g9qqsBDVT7C4hdN_e3cGQFDGmm_NOhFhA2_OQ/exec" target="_blank" rel="noopener noreferrer">Ouvrir le questionnaire</a></p></noscript>
+</main>
+
+<footer>
+  <div class="wrap"><span>© 2026 <strong>PHENIC·IA</strong> · Studio digital à distance</span><span>contact@phenic-ia.fr</span></div>
+</footer>
+
+<script>
+  // URL unique du questionnaire : utilisée par l'iframe et les liens plein écran.
+  const QUESTIONNAIRE_URL = "https://script.google.com/macros/s/AKfycbxoXNZzUuCkW5V8tyPz9Dvxfk_Eef8J6g9qqsBDVT7C4hdN_e3cGQFDGmm_NOhFhA2_OQ/exec";
+  try{var th=localStorage.getItem("phenicia-theme");if(th==="light"||th==="dark")document.documentElement.setAttribute("data-theme",th)}catch(e){}
+  document.getElementById("q").src = QUESTIONNAIRE_URL;
+  document.querySelectorAll("[data-qurl]").forEach(function(a){a.href = QUESTIONNAIRE_URL});
+  // Hauteur réelle de l'en-tête pour le calc() de l'iframe.
+  var hdr=document.querySelector("header");
+  function setHdr(){document.documentElement.style.setProperty("--hdr",hdr.offsetHeight+"px")}
+  setHdr();addEventListener("resize",setHdr);
+</script>
+</body>
+</html>
